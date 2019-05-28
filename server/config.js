@@ -1,8 +1,8 @@
 const pgsql = {
   host: 'localhost',
-  user: 'homer_user',
+  user: 'homer',
   port: 5432,
-  password: 'homer_password',
+  password: '01722gausia',
   charset: 'utf8',
   timezone: 'utc',
   pool: {
@@ -32,7 +32,7 @@ const mysql = {
 const influxdb = {
   host: 'influxdb',
   port: 8086,
-  database: 'homer'
+  database: 'homer_config'
 }
 
 const prometheus = {
